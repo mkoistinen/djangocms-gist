@@ -1,0 +1,6 @@
+{
+    "package-name": "djangocms-gist",
+    "installed-apps": [
+        "djangocms_gist"
+    ]
+}
