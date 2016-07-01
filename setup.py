@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 from setuptools import setup
 from djangocms_gist import __version__
 

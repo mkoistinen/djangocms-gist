@@ -13,9 +13,8 @@ from .models import GistPluginModel
 class GistPlugin(CMSPluginBase):
     form = GistPluginAdminForm
     model = GistPluginModel
-    module = settings.MODULE_NAME
     name = _("Gist")
-    render_template = "gists/_gist_plugin.html"
+    render_template = "djangocms_gist/_gist_plugin.html"
     text_enabled = True
 
     def render(self, context, instance, placeholder):
@@ -26,7 +25,7 @@ class GistPlugin(CMSPluginBase):
         return context
 
     def icon_src(self, instance):
-        return settings.STATIC_URL + 'gists/images/gist_plugin_icon.png'
+        return settings.STATIC_URL + 'djangocms_gist/images/gist_plugin_icon.png'
 
     def icon_alt(self, instance):
         return 'Gist: %s:%s' % (instance.gist_user, instance.gist_id, )
