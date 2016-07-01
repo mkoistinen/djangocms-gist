@@ -1,6 +1,7 @@
 {
     "package-name": "djangocms-gist",
     "installed-apps": [
-        "djangocms_gist"
+        "djangocms_gist",
+        "easy_select2"
     ]
 }

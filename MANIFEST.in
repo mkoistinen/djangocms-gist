@@ -1,0 +1,4 @@
+include README.rst
+recursive-include djangocms_gist/locale *
+recursive-include djangocms_gist/templates *
+recursive-exclude * *.pyc
