@@ -3,6 +3,7 @@
 *.lock
 *.log
 *.pid
+/djangocms_gist.egg-info
 cms/django
 *.DS_Store
 *.svn
@@ -47,3 +48,4 @@ cms/static/cms/compass_app_log.txt
 coverage-*.txt
 docs/env
 requirements.txt
+/djangocms_gist.egg-info/
